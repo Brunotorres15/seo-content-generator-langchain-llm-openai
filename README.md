@@ -56,7 +56,7 @@ streamlit run app.py
 ├── llm.py # Content generation with OpenAI
 ├── frontend.py # Streamlit UI components
 ├── app.py # Main application logic
-├── requirements.txt # necessary libs for the project
+├── requirements.txt # Necessary libs for the project
 └── .env # Configuration (OPENAI_API_KEY)
 ```
 
