@@ -21,6 +21,35 @@ A streamlined content generation tool powered by OpenAI's GPT-4, designed to cre
   - Frontend components
   - Main application flow
 
+## 🚀 How to Use This Project
+
+1. First, clone the repository:
+```bash
+git clone https://github.com/Brunotorres15/seo-content-generator-langchain-llm-openai
+
+cd seo-content-generator-langchain-llm-openai
+```
+2. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+3. Create a .env file with your OpenAI API key:
+```bash
+OPENAI_API_KEY=your_api_key_here
+```
+
+4. Run the Streamlit application:
+```bash
+streamlit run app.py
+```
+
+5. In your browser:
+```bash
+- Fill in the content parameters
+- Click "Generate Content"
+- Copy or download the Markdown output
+```
+
 ## 📂 Code Structure
 
 ```
@@ -38,6 +67,10 @@ A streamlined content generation tool powered by OpenAI's GPT-4, designed to cre
    - Proper headings
    - Paragraph structure
    - Optional CTAs/hashtags/emojis
+
+![alt text](./imgs/content-example.png)
+
+## How to use it 
 
 ## 🌟 Key Differentiators
 - Focus on natural language matching (no forced translations)

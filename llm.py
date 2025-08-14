@@ -20,9 +20,10 @@ def generate_content(topic, platform, tone, length, audience, cta, hashtags, emo
     prompt = f"""
 
     **Instruções Fundamentais:**
-    - Responda EXCLUSIVAMENTE no mesmo idioma em que esta solicitação está escrita
+    - Responda EXCLUSIVAMENTE no mesmo idioma em que o Tema Principal (topic) está sendo escrito
     - Mantenha consistência linguística com o texto da pergunta
     - Formate a saída em Markdown
+    - Mantenha o Texto de forma discursiva e profissional que prenda a atenção à leitura
 
     Escreva um conteúdo altamente otimizado levando em consideração os seguintes contextos:
     
